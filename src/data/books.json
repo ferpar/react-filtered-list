@@ -1,0 +1,77 @@
+{
+    "books": [
+      {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": "Tragedy",
+        "pages": 218,
+        "language": "English",
+        "ISBN": "978-0-7432-7356-5"
+      },
+      {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "genre": "Dystopian",
+        "pages": 328,
+        "language": "English",
+        "ISBN": "978-0-452-28423-4"
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1960,
+        "genre": "Southern Gothic",
+        "pages": 281,
+        "language": "English",
+        "ISBN": "978-0-06-112008-4"
+      },
+      {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": 1813,
+        "genre": "Romance",
+        "pages": 432,
+        "language": "English",
+        "ISBN": "978-0-316-00086-7"
+      },
+      {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": 1937,
+        "genre": "Fantasy",
+        "pages": 310,
+        "language": "English",
+        "ISBN": "978-0-618-26030-0"
+      },
+      {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "year": 1851,
+        "genre": "Adventure",
+        "pages": 635,
+        "language": "English",
+        "ISBN": "978-0-14-243724-7"
+      },
+      {
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel García Márquez",
+        "year": 1967,
+        "genre": "Magical Realism",
+        "pages": 417,
+        "language": "Spanish",
+        "ISBN": "978-0-06-088328-7"
+      },
+      {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "year": 1951,
+        "genre": "Coming-of-Age",
+        "pages": 234,
+        "language": "English",
+        "ISBN": "978-0-316-76948-1"
+      }
+    ]
+  }
+    
