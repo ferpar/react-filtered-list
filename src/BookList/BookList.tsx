@@ -13,9 +13,9 @@ const BookList = ({ books }: BookListProps) => {
   const [formState, setFormState] = React.useState({
     title: "",
     author: "",
-    year: 0,
+    year: 2024,
     genre: "",
-    pages: 0,
+    pages: 1000,
     language: languages[0],
   });
 
@@ -32,12 +32,14 @@ const BookList = ({ books }: BookListProps) => {
 
   React.useEffect(() => {
     const newFilteredBooks = books.filter(book => {
+      return(
         book.title.toLowerCase().includes(formState.title.toLowerCase()) &&
         book.author.toLowerCase().includes(formState.author.toLowerCase()) &&
-        book.year >= formState.year &&
-        book.genre.toLowerCase().includes(formState.genre.toLowerCase()) &&
-        book.pages <= formState.pages &&
+        book.year <= formState.year &&
+        book.genre.toLowerCase().includes(formState.genre.toLowerCase()) && 
+        book.pages <= formState.pages && 
         book.language === formState.language
+      )
     })
 
     setFilteredBooks(newFilteredBooks)
@@ -77,7 +79,7 @@ const BookList = ({ books }: BookListProps) => {
             ></input>
           </label>
           <label htmlFor="year-input">
-            Year:{" "}
+            Before Year:{" "}
             <input
               onChange={handleChangeForm}
               value={formState.year}
@@ -110,7 +112,7 @@ const BookList = ({ books }: BookListProps) => {
             Language{": "}
             <select
               onChange={handleChangeForm}
-              value={formState.genre}
+              value={formState.language}
               id="language-input"
               name="language"
             >
