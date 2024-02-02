@@ -1,6 +1,5 @@
 import BookList from './BookList'
 import booksObj from './data/books.json'
-import { Book } from './BookList/Types'
 import './App.css'
 
 

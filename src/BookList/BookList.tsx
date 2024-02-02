@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./BookList.module.css";
-import { BookListProps } from "./Types";
 
 const BookList = ({ books }: BookListProps) => {
   const languages = books.reduce((ac: string[], book) => {
